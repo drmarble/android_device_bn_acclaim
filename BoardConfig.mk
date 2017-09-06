@@ -98,8 +98,8 @@ TARGET_KERNEL_MODULES := WLAN_MODULES
 # external SGX module
 -include hardware/ti/omap4/pvr-km.mk
 
-BOARD_SEPOLICY_DIRS += \
-	$(DEVICE_FOLDER)/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#	$(DEVICE_FOLDER)/sepolicy
 
 # boot.img
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_FOLDER)/boot.mk
